@@ -11,63 +11,87 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <main>
-        <header class="main-header">
-            <div class="container">
-                <div class="main-header-wrapper">
-                    <a class="main-header-logo-link" href="javascript:void (0);">
-                        <img src="./assets/img/logo.png" alt="theHam">
-                    </a>
-                    <ul class="main-header-nav-menu">
-                        <li class="main-header-nav-item active">
-                            <a class="main-header-nav-link" href="#">Home</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">About</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">Skills</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">Service</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">Work</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">Testimonial</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">Team</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="main-header-nav-item">
-                            <a class="main-header-nav-link main-header-search-btn" href="javascript: void(0);">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
+        <section class="top-section">
+            <header class="main-header">
+                <div class="container">
+                    <div class="main-header-wrapper">
+                        <a class="main-header-logo-link" href="javascript:void (0);">
+                            <img src="./assets/img/logo.png" alt="theHam">
+                        </a>
+                        <ul class="main-header-nav-menu only-lg">
+                            <li class="main-header-nav-item active">
+                                <a class="main-header-nav-link" href="#">Home</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">About</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">Skills</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">Service</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">Work</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">Testimonial</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">Team</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="main-header-nav-item">
+                                <a class="main-header-nav-link main-header-search-btn" href="javascript: void(0);">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <section class="top-banner">
-            <div class="container">
-                <div class="top-banner-wrapper">
-                    <h2>The ham is wordpress theme</h2>
-                    <h1>We are creative</h1>
-                    <h2>Just Buy And Enjoy These Awesome Features</h2>
-                    <a href="#">Explore now</a>
-                    <a href="#">Purchase now</a>
+            </header>
+            <div class="top-banner">
+                <div class="container">
+                    <div class="top-banner-wrapper">
+                        <h2 class="top-banner-first-title">The ham is <span>wordpress theme</span></h2>
+                        <h1>We are creative</h1>
+                        <h2 class="top-banner-last-title">Just Buy And Enjoy These Awesome Features</h2>
+                        <div class="top-banner-buttons">
+                            <a class="btn btn-light-blue" href="#">Explore now</a>
+                            <a class="btn btn-blue" href="#">Purchase now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <div class="global-features">
+            <div class="global-features-item dark">
+                <img src="./assets/img/hand.png" alt="">
+                <p>Different theme option</p>
+            </div>
+            <div class="global-features-item light">
+                <img src="./assets/img/diamond.png" alt="">
+                <p>Fully customizable</p>
+            </div>
+            <div class="global-features-item dark">
+                <img src="./assets/img/light.png" alt="">
+                <p>Unlimited support</p>
+            </div>
+            <div class="global-features-item light">
+                <img src="./assets/img/devices.png" alt="">
+                <p>Responsive all devices</p>
+            </div>
+        </div>
     </main>
 </body>
 </html>
